@@ -44,7 +44,7 @@ router.get('/users/:id', {
   },
 });
 
-router.post('/users/', {
+router.post('/users', {
   mount: [
     body(omit(models.user.validator.ofColumns, 'id')),
     response({
