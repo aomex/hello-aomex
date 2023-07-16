@@ -5,7 +5,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "prisma generate && nodemon",
-    "swagger": "aomex openapi && docker-compose up",
+    "swagger": "aomex openapi && cd swagger-vite && ./node_modules/.bin/vite serve --open --port 3001",
+    "swagger:docker": "aomex openapi && docker-compose up",
     "postinstall": "prisma generate"
   },
   "type": "module",

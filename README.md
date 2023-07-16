@@ -20,3 +20,11 @@ pnpm swagger
 ```
 
 然后打开浏览器输入网址：http://localhost:3001
+
+# 使用docker查看swagger文档
+
+```bash
+pnpm swagger:docker
+```
+
+然后打开浏览器输入网址：http://localhost:3002
