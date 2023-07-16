@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "lib": ["es2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "verbatimModuleSyntax": true,
+    "allowJs": false,
+    "checkJs": false,
+    "declaration": false,
+    "removeComments": true,
+    "rootDir": "./",
+    "outDir": "./build",
+    "noEmit": false,
+    "importHelpers": false,
+    "downlevelIteration": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types", "./typings"]
+  },
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

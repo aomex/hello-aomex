@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/@aomex/console/config.json",
+  "cliEntry": {
+    "production": "./src/cli.js",
+    "default": "./src/cli.ts"
+  }
+}

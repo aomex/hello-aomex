@@ -1,0 +1,35 @@
+{
+  "name": "hello-aomex",
+  "private": true,
+  "repository": "git@github.com:aomex/hello-aomex.git",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "prisma generate && nodemon",
+    "swagger": "aomex openapi && docker-compose up",
+    "postinstall": "prisma generate"
+  },
+  "type": "module",
+  "volta": {
+    "node": "18.16.0",
+    "pnpm": "8.2.0"
+  },
+  "dependencies": {
+    "@aomex/commander": "^0.0.29",
+    "@aomex/console": "^0.0.27",
+    "@aomex/core": "^0.0.22",
+    "@aomex/openapi": "^0.0.31",
+    "@aomex/prisma-model": "^0.0.10",
+    "@aomex/router": "^0.0.25",
+    "@aomex/web": "^0.0.23",
+    "@prisma/client": "^5.0.0",
+    "lodash-es": "^4.17.21",
+    "prisma": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.8",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
