@@ -2,7 +2,7 @@
   "delay": 400,
   "verbose": true,
   "ext": "ts",
-  "exec": "pnpm prisma generate && ts-node ./src/index.ts",
+  "exec": "pnpm prisma generate && aomex-ts-node ./src/index.ts",
   "watch": ["./src/**/*", "package.json", "nodemon.json"],
   "env": {
     "NODE_ENV": "development",
