@@ -28,3 +28,15 @@ pnpm swagger:docker
 ```
 
 然后打开浏览器输入网址：http://localhost:3002
+
+# 查看指令列表
+
+```bash
+pnpm aomex -h
+```
+
+# 执行指令
+
+```bash
+pnpm aomex COMMAND_NAME
+```
